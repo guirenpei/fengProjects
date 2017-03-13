@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DOCUMENT content_method="full" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ecmx.baidu.com/adcoup-mat/8d00bd35-6f66-4c16-8ca9-06ce94e3b795.xml">
+  <child attribute="value" attribute2="value2">
+    node text
+    <person age="35">
+      <name>John</name>
+      <address>
+        <city>Istanbul</city>
+      </address>
+      <phone type="home">555-1234</phone>
+      <phone type="mobile">555-1235</phone>
+      <id>42</id>
+    </person>
+    obj text
+  </child>
+  <first/>
+  <second secondAttr="second text">
+    second node txt
+    this will not be escaped
+    <![CDATA[this will be surrounded by CDATA delimiters]]>
+  </second>
+  <third/>
+  <!-- some comment here -->
+</DOCUMENT>
