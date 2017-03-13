@@ -1,5 +1,5 @@
 'use strict';
-const func = require('./lib/funcs');
+const func = require('../lib/funcs');
 const log = require('rainbowlog');
 const {directions} = require('./dictionary');
 

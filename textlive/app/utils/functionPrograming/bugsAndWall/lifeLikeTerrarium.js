@@ -1,6 +1,6 @@
 'use strict';
 const Terrarium = require('./terrarium');
-const func = require('./lib/funcs');
+const func = require('../lib/funcs');
 const {directions, Dictionary} = require('./dictionary');
 const Point = require('./point');
 const log = require('rainbowlog');

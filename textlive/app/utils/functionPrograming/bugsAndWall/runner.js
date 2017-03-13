@@ -7,7 +7,7 @@ const LifeLikeTerrarium = require('./lifeLikeTerrarium');
 const {Lichen, CleverLichenEater} = require('./LichenAndCreatures');
 const {StupidBug, BouncingBug, DrunkBug} = require('./bugs');
 const {directions, Dictionary} = require('./dictionary');
-const func = require('./lib/funcs');
+const func = require('../lib/funcs');
 
 const thePlan = [
   '############################',

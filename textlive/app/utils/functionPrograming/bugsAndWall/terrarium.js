@@ -4,7 +4,7 @@ const {directions, Dictionary} = require('./dictionary');
 const Grid = require('./grid');
 const Point = require('./point');
 const {StupidBug, BouncingBug, DrunkBug} = require('./bugs');
-const func = require('./lib/funcs');
+const func = require('../lib/funcs');
 const log = require('rainbowlog');
 
 const creatureTypes = new Dictionary();
